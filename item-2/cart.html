@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>My Cart</h1>
+                <table id="my-cart">
+                    <thead>
+                        <tr>
+                            <td class="col-title">Product Details</td>
+                            <td class="col-title">Quantity</td>
+                            <td class="col-title">Price</td>
+                            <td class="col-title">Total</td>
+                            <td class="col-title"> Action </td>
+                        </tr>
+                    </thead>
+                    <tbody id="my-cart-item">
+                        <tr id="product-item-1">
+                            <td class="product-item-details">
+                                <div class="product-image">
+                                    <img src="img/product-1.jpg" alt="">
+                                </div>
+                                <div class="product-description">
+                                    Stretch travel T-shirt
+                                </div>
+                            </td>
+                            <td class="row-value">
+                                5
+                            </td>
+                            <td class="row-value">
+                                $1.50
+                            </td>
+                            <td class="row-value">
+                                $7.50
+                            </td>
+                            <td class="row-value">
+                                <p>
+                                    <button class="btn btn-remove" role="button">Remove</button>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr id="product-item-2">
+                            <td class="product-item-details">
+                                <div class="product-image">
+                                    <img src="img/product-2.jpg" alt="">
+                                </div>
+                                <div class="product-description">
+                                    Sony PlayStation 5
+                                </div>
+                            </td>
+                            <td class="row-value">
+                                1
+                            </td>
+                            <td class="row-value">
+                                $200.00
+                            </td>
+                            <td class="row-value">
+                                $200.00
+                            </td>
+                            <td class="row-value">
+                                <p>
+                                    <button class="btn btn-remove" role="button">Remove</button>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr id="product-item-3">
+                            <td class="product-item-details">
+                                <div class="product-image">
+                                    <img src="img/product-3.jpg" alt="">
+                                </div>
+                                <div class="product-description">
+                                    Adidas Superstar
+                                </div>
+                            </td>
+                            <td class="row-value">
+                                2
+                            </td>
+                            <td class="row-value">
+                                $80.50
+                            </td>
+                            <td class="row-value">
+                                $161.00
+                            </td>
+                            <td class="row-value">
+                                <button class="btn btn-remove" role="button">Remove</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
